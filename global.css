@@ -1,0 +1,183 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 53px 112px 169px 223px 211px 59px 34px;
+    grid-template-rows: 27px 43px 65px 177px 146px 135px 50px 62px 42px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+.b1 {
+    grid-area: 1 / 1 / 4 / 2;
+    border: solid black;
+    background-color: black;
+}
+
+.b2 {
+  grid-area: 1 / 2 / 2 / 4;
+  border: solid black;
+  background-color: gray;
+}
+
+.b3 {
+  grid-area: 2 / 2 / 4 / 3;
+  border: solid black;
+  background-color: red;
+}
+
+.b4 {
+  grid-area: 2 / 3 / 4 / 4;
+  border: solid black;
+  background-color: white;
+}
+
+.b5 {
+  grid-area: 1 / 4 / 3 / 5 ;
+  border: solid black;
+  background-color: white;
+}
+
+.b6 {
+  grid-area: 3 / 4 / 4 / 5;
+  border: solid black;
+  background-color: yellow;
+
+}
+
+.b7 {
+  grid-area: 1 / 5 / 3 / 6;
+  border: solid black;
+  background-color: gray;
+}
+
+.b8 {
+  grid-area: 3 / 5 / 4 / 6;
+  border: solid black;
+  background-color: purple;
+}
+
+.b9 {
+  grid-area: 1 / 6 / 4 / 8;
+  border: solid black;
+  background-color: yellow;
+}
+
+.b10 {
+  grid-area: 4 / 1 / 6 / 2;
+  border: solid black;
+    background-color: white;
+  }
+
+  .b11 {
+    grid-area: 4 / 2 / 5 / 4;
+    border: solid black;
+    background-color: purple;
+  }
+
+  .b12 {
+    grid-area: 4 / 4 / 5 / 5;
+    border: solid black;
+    background-color: yellow;
+  }
+
+  .b13 {
+    grid-area: 4 / 5 / 5 / 6;
+    border: solid black;
+    background-color: gray;
+  }
+
+  .b14 {
+    grid-area: 4 / 6 / 7 / 7;
+    border: solid black;
+    background-color: red;
+  }
+
+  .b15 {
+    grid-area: 4 / 7 / 7 / 8 ;
+    border: solid black;
+    background-color: white;
+  }
+
+  .b16 {
+    grid-area: 5 / 2 / 6 / 4;
+    border: solid black;
+    background-color: black;
+  }
+
+  .b17 {
+    grid-area: 5 / 4 / 6 / 5;
+    border: solid black;
+    background-color: white;
+  }
+
+  .b18 {
+    grid-area: 5 / 5 / 7 / 6;
+    border: solid black; 
+    background-color: black;
+  }
+
+  .b19 {
+    grid-area: 6 / 1 / 7 / 3;
+    border: solid black;
+    background-color: gray;
+  }
+
+  .b20 {
+    grid-area: 6 / 3 / 9 / 4;
+    border: solid black;
+    background-color: red;
+  }
+
+  .b21 {
+    grid-area: 6 / 4 / 7 / 5 ;
+    border: solid black;
+    background-color: white; 
+  }
+
+  .b22 {
+    grid-area: 7 / 4 / 9 / 5;
+    border: solid black;
+    background-color: purple;
+  }
+
+  .b23 {
+    grid-area: 7 / 5 / 9 / 6;
+    border: solid black;
+    background-color: yellow;
+  }
+
+  .b24 {
+    grid-area: 7 / 6 / 9 / 8;
+    border: solid black;
+    background-color: white;
+  }
+
+  .b25 {
+    grid-area: 7 / 1 / 9 / 3;
+    border: solid black;
+    background-color: white;
+  }
+
+  .b26 {
+    grid-area: 8 / 3 / 9 / 5;
+    border: solid black;
+    background-color: black;
+  }
+
+  .b27 {
+    grid-area: 8 / 5 / 9 / 6;
+    border: solid black;
+    background-color: gray;
+  }
+
+
+
+
+
+
+  
